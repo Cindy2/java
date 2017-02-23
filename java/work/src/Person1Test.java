@@ -14,5 +14,8 @@ class Person1Test
 		person2.i = 20;
 		System.out.println("person1的i的值为"+ person1.i);
 		System.out.println("person1的i的值为"+ person2.i);
+
+		Person1.i = 11;
+		Person1.talk();
 	}
 }
